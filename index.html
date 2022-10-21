@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/imgs/newlogoico.png" type="image/x-icon">
+    <title>Omnivia Tecnologia</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Fredoka+One&display=swap');
+
+        @font-face{
+            font-family: 'Bowlby';
+            src: url('./fonts/Bowlby_One_SC/BowlbyOneSC-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body  > main {
+            min-width: 300px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            border-radius: 10px;
+        }
+
+        header{
+
+            min-height: 80px;
+            text-align: left;
+            padding-top: 40px;
+        }
+
+        #logo{
+            transition: all 0.5s;
+            cursor: pointer;
+            margin-left: 50px;
+        }
+
+        #logo:hover {
+            -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+             filter: drop-shadow(10px 5px 5px rgba(0,0,0,.5));
+            transform: scale(1.2);
+
+        }
+
+
+
+        .banner{
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        span#dados{
+            width: 200px;
+            height: 50px;
+            border-radius: 10px;
+            background-image: linear-gradient(to bottom, white, rgba(0, 0, 255, 0.178));
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.226);
+            padding: 5px;
+            display: table;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0 2ex;
+
+        }
+
+        nav {
+            padding: 10px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav > a {
+            color: #382323;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition-duration: .5s;
+            font-size: .8em;
+            
+        }
+
+        nav > a:hover {
+            background-color: #484adb;
+            color: #fdb04c;
+        }
+
+        h1{
+            font-family: 'Fredoka One', cursive;
+            font-size: 2em;
+
+
+        }
+
+        article{
+            text-align: center;
+        }
+
+        .port {
+            width: 300px;
+            transition: 1s ease-in-out;
+            border-radius: 30px;
+            margin: 40px;
+        }
+        .port:hover {
+            transform: scale(2);
+            transition: 2s;
+
+        }
+
+        footer{
+            
+            background-image: linear-gradient(to right, white, rgba(0, 0, 255, 0.185));
+            padding: 5px 0px 5px 0px;
+            font-size: 12px;
+            color: gray;
+            margin: 30px 0px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: right;
+        }
+        footer > div {
+            display: inline-flex;
+        }
+        footer > div > img {
+            width: 20px;
+            margin-left: 10px;
+        }
+        div#target {
+            width: 100%;
+            height: 50vw;
+            overflow-y: auto;
+            overflow-x: auto;
+            resize: both;
+            background-color: rgb(26, 23, 19);
+        }
+          
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <picture>
+                <source media="(max-width: 655px)" srcset="/imgs/newlogo2_pq.png">
+            
+                <img id="logo" src="/imgs/newlogo2.png" alt="">
+
+            </picture>
+            
+            <span id="dados">
+                <p>omniviatec@gmail.com</p>
+                <p>+55 51 999426222</p>
+
+            </span>
+            
+        </div>
+
+        
+
+    </header>
+    <nav>
+        <a href="">Home</a>
+        <a href="">Projetos 3D</a>
+        <a href="">Desenvolvimento de Sites</a>
+        <a href="">Outros</a>
+    </nav>
+    <main>
+        <br>
+        <section>
+            <article>
+                <h1>Converse conosco sobre suas necessidades</h1>
+
+                <img class="port" src="/imgs/fone4.jpg" alt="">
+                <img class="port" src="/imgs/barça.359.png" alt=""><br>
+                <br>
+                <small>Passe o mouse sobre a imagem para ampliar.</small>
+            </article>
+        </section>
+
+        <br>
+    
+        <br>
+
+        <section>
+            <article>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, nemo numquam? Ullam tempore non dolorem accusantium nam voluptate itaque nisi atque corrupti maxime. Ab temporibus consequuntur blanditiis reiciendis sapiente laudantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati expedita dolor aspernatur excepturi dolorum animi accusamus impedit ab soluta enim asperiores suscipit, ut, qui laboriosam perferendis consequuntur repellendus quod nobis.</p>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi facilis temporibus rem, explicabo quis dignissimos rerum? Eligendi consectetur voluptates, consequatur quis voluptate repellendus facilis velit, nisi accusantium minima quas suscipit?</p>
+                <img class="port" src="/imgs/chut rugby 1.64.jpg" alt="">
+                <img class="port" src="/imgs/Sapo_Cor6.107.png" alt="">
+                <br>
+                <small>Passe o mouse sobre a imagem para ampliar.</small>
+
+                
+
+                
+
+            </article>
+        </section>
+        <div id="target">
+            <iframe src="/basf_fem_vr/basf_fem_vr.html" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <!-- <div class="menu-bar">
+            <ul>
+              <li>
+                <p>Menu</p>
+                <ul>
+                  <li>
+                    <p>Link</p>
+                  </li>
+                  <li>
+                    <a class="menu-nav" href="">Submenu</a>
+                    <ul>
+                      <li>
+                        <a class="menu-nav" href="">Submenu</a>
+                        <ul>
+                          <li><p>Link</p></li>
+                          <li><p>Link</p></li>
+                          <li><p>Link</p></li>
+                          <li><p>Link</p></li>
+                        </ul>
+                      </li>
+                      <li><a href="">Link</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div> -->
+
+    </main>
+    <footer>
+        <div>
+            <p>Realizado por Omnivia</p>
+            <img src="/imgs/newlogoico.png" alt="">
+            
+        </div>
+
+    </footer>
+    
+</body>
+</html>
