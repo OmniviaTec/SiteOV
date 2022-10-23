@@ -182,6 +182,8 @@
     </div>
     <main>
         <br>
+        <button id="goFS">Go fullscreen</button>
+        <br>
         <section>
             <article>
                 <h1>Soluções</h1>
@@ -232,6 +234,13 @@
     
 </body>
 <script>
-    document.documentElement.requestFullscreen()
+var goFS = document.getElementById('goFS');
+goFS.addEventListener(
+    'click',
+    function () {
+    document.body.requestFullscreen();
+    },
+    false,
+);
 </script>
 </html>
