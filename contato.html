@@ -5,17 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./imgs/newlogoico5.png" type="image/x-icon">
-    <title>Omnivia - Desenvolvimento de Sites</title>
+    <title>Omnivia Tecnologia</title>
     <link rel="stylesheet" href="./styles.css">
     <script type="text/javascript" src="./scripts.js"></script>
 </head>
 <body>
     <header>
         <div class="banner">
-
             <picture>
                 <source media="(max-width: 655px)"srcset="./imgs/newlogo5_pq.png">
+            
                 <img id="logo" src="./imgs/newlogo5.png" alt="">
+
             </picture>
             
             <div id="dados">
@@ -23,34 +24,39 @@
                     <source media="(max-width: 400px)"srcset="./imgs/mail_pq.png">
                     <img src="./imgs/mail.png" alt="email" onclick="atention2()">
                 </picture>
-
             </div>
         </div>
+
     </header>
 
     <div id="opcoes">
         <nav>
-            <a href="./index.html">Home</a>
-            <a href="./projetos.html">Projetos 3D</a>
-            <a href="./impressao.html">Impressão 3D</a>
-            <a href="./sites.html">Desenvolvimento de Sites</a>
+            <a href="index.html">Home</a>
+            <a href="projetos.html">Projetos 3D</a>
+            <a href="impressao.html">Impressão 3D</a>
+            <a href="sites.html">Desenvolvimento de Sites</a>
         </nav>
     </div>
 
-    <main>
-        <h1>Portfolio</h1>
-        <p></p>
-
-        <section>
-            <article>
-                <div id="target">
-                    <p>Site desenvolvido para a <a href="https://www.basf.com/br/pt.html" target="_blank">BASF</a> apresentar modelos de sandálias e materiais inovadores. <br> Foram desenvolvidos todos os modelos 3D, renderizações e animações, assim como o código da página. <br> Clique na imagem para interagir. </p>
-                    <p><a href="https://chinelobasf.web.app" target="_blank"><img src="./imgs/basf.PNG" alt="Chinelos Basf"></a></p>
-                </div>
-            </article>
-        </section>
-        
+    <main id="contact" style="background-image: none; color: black;">
+      <h3>Mande um email que retornaremos</h3>
+      <form action="https://formsubmit.co/omniviatec@gmail.com" method="POST">
+        <label for="name">Nome</label>
+        <br>
+        <input type="text" name="name" obrigatório>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="email" obrigatório>
+        <br>
+        <label for="mensagem">Mensagem</label>
+        <br>
+        <textarea id="mensagem" name="mensagem" cols="30" rows="5"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+      </form>
     </main>
+
     <footer>
         <div id='#pe'>
             <p> &#9755 Realizado por Coelho
@@ -60,5 +66,6 @@
             <p>+55 51 999 426 222</p>
         </div>
     </footer>
+
 </body>
 </html>

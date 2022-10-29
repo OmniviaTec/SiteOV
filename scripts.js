@@ -1,5 +1,6 @@
 function atention1() {
-    alert('Você clicou no zap')}
-        
+  location.replace("./index.html");
+}
 function atention2() {
-    alert('Você clicou no email')}
+  location.replace("./contato.html");
+}
